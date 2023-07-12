@@ -695,10 +695,20 @@ a.up {
     height: 36px;
     border-radius: 50%;
     z-index: 1;
+    transition: 1s;
+}
+a.up:hover{
+  background-color: #f64045;
+transition: 0.5s;
 }
 i.fa-solid.fa-arrow-up {
     color: #f64045;
     font-size: 23px;
     font-weight: 900;
     transform: translate(50%, 27%);
+    transition: 1s;
+}
+i.fa-solid.fa-arrow-up:hover{
+  color: #fff;
+  transition: 0.5s;
 }
